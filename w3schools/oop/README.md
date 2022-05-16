@@ -5,7 +5,8 @@
 1)	A class is a template for objects, and an object is an instance of a class.
 2)	In a class, variables are called properties and functions are called methods.
 3)	The <b>$this</b> keyword refers to the current object, and is only available inside methods.
-4)	You can use the instanceof keyword to check if an object belongs to a specific class
+4)	You can use the instanceof keyword to check if an object belongs to a specific class.
+<br/>
 <strong>Example : </strong>
 <br/>
 var_dump($apple instanceof Fruit);
