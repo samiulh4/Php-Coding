@@ -51,13 +51,11 @@ class Strawberry extends Fruit {
 12) Constants cannot be changed once it is declared.
 <strong>Example : 1</strong> We can access a constant from outside the class by using <strong>::</strong>
 <code>
-<?php
 class Goodbye 
 {
 	const LEAVING_MESSAGE = "Thank you for visiting W3Schools.com!";
 }
 	echo Goodbye::LEAVING_MESSAGE;
-?>
 </code>
 <strong>Example : 2</strong> We can access a constant from outside the class by using <strong>self</strong>	
 <?php
