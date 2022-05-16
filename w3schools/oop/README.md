@@ -33,7 +33,7 @@ private - the property or method can ONLY be accessed within the class
 9)	Inheritance in OOP = When a class derives from another class.
 The child class will inherit all the public and protected properties and methods from the parent class. In addition, it can have its own properties and methods.
 10)	Inherited methods can be overridden by redefining the methods (use the same name) in the child class.
-11)	The final keyword can be used to prevent class inheritance or to prevent method overriding.
+11)	The <strong>final</strong> keyword can be used to prevent class inheritance or to prevent method overriding.
 <?php
 class Fruit {
   final public function intro() {
