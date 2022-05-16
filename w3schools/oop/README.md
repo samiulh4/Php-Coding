@@ -49,23 +49,30 @@ class Strawberry extends Fruit {
 }
 ?>
 12) Constants cannot be changed once it is declared.
+<br/>
 <strong>Example : 1</strong> We can access a constant from outside the class by using <strong>::</strong>
+<br/>
+<pre>
 <code>
-class Goodbye 
-{
-	const LEAVING_MESSAGE = "Thank you for visiting W3Schools.com!";
-}
+	class Goodbye 
+	{
+		const LEAVING_MESSAGE = "Thank you for visiting W3Schools.com!";
+	}
 	echo Goodbye::LEAVING_MESSAGE;
 </code>
-<strong>Example : 2</strong> We can access a constant from outside the class by using <strong>self</strong>	
-<?php
-class Goodbye 
-{
-  const LEAVING_MESSAGE = "Thank you for visiting W3Schools.com!";
-  public function byebye() {
-    echo self::LEAVING_MESSAGE;
-  }
-}
-$goodbye = new Goodbye();
-$goodbye->byebye();
-?>
+</pre>
+<strong>Example : 2</strong> We can access a constant from outside the class by using <strong>self</strong>
+<br/>
+<pre>
+<code>
+	class Goodbye 
+	{
+	  const LEAVING_MESSAGE = "Thank you for visiting W3Schools.com!";
+	  public function byebye() {
+	    echo self::LEAVING_MESSAGE;
+	  }
+	}
+	$goodbye = new Goodbye();
+	$goodbye->byebye();
+</code>
+</pre>
