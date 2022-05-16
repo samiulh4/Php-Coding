@@ -11,7 +11,8 @@ Example : var_dump($apple instanceof Fruit);
 5)	Notice that the construct function starts with two underscores (__).
 6)	A destructor is called when the object is destructed or the script is stopped or exited.
 7)	If you create a __destruct() function, PHP will automatically call this function at the end of the script.
-<?php
+<pre>
+<code>
 class Fruit {
   public $name;
   public $color;
@@ -26,7 +27,8 @@ class Fruit {
 }
 
 $apple = new Fruit("Apple", "red");
-?>
+</pre>
+</code>
 8)	public - the property or method can be accessed from everywhere. This is default
 protected - the property or method can be accessed within the class and by classes derived from that class
 private - the property or method can ONLY be accessed within the class
