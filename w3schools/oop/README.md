@@ -1,7 +1,5 @@
 # <a href="https://www.w3schools.com/php/php_oop_what_is.asp">W3SCHOOLS - OOP</a>
 
-
-
 1)	A class is a template for objects, and an object is an instance of a class.
 2)	In a class, variables are called properties and functions are called methods.
 3)	The <b>$this</b> keyword refers to the current object, and is only available inside methods.
@@ -9,7 +7,11 @@
 <br/>
 <strong>Example : </strong>
 <br/>
-var_dump($apple instanceof Fruit);
+<pre>
+  <code>
+    var_dump($apple instanceof Fruit);
+  </code>  
+</pre>
 <br/>
 5)	Notice that the construct function starts with two underscores (__).
 6)	A destructor is called when the object is destructed or the script is stopped or exited.
