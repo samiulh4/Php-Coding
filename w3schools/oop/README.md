@@ -4,6 +4,7 @@
 2)	In a class, variables are called properties and functions are called methods.
 3)	The <strong>$this</strong> keyword refers to the current object, and is only available inside methods.
 4)	You can use the instanceof keyword to check if an object belongs to a specific class.
+<br/>
 <strong>Example : </strong>
 <pre>
   <code>
