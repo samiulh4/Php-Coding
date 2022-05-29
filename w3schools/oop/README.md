@@ -2,17 +2,25 @@
 
 1)	A class is a template for objects, and an object is an instance of a class.
 2)	In a class, variables are called properties and functions are called methods.
-3)	The <b>$this</b> keyword refers to the current object, and is only available inside methods.
+3)	The <strong>$this</strong> keyword refers to the current object, and is only available inside methods.
 4)	You can use the instanceof keyword to check if an object belongs to a specific class.
-<br/>
 <strong>Example : </strong>
-<br/>
 <pre>
   <code>
-    var_dump($apple instanceof Fruit);
+    class MyClass {}
+    class AnotherClass extends MyClass{}
+    $obj = new AnotherClass();
+
+    if($obj instanceof AnotherClass) {
+      echo "The object is AnotherClass<br>";
+    }
+
+    // The object is also an instance of the class it is derived from
+    if($obj instanceof MyClass) {
+      echo "The object is MyClass";
+    }
   </code>  
 </pre>
-<br/>
 5)	Notice that the construct function starts with two underscores (__).
 6)	A destructor is called when the object is destructed or the script is stopped or exited.
 7)	If you create a __destruct() function, PHP will automatically call this function at the end of the script.
